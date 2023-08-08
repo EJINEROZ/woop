@@ -16,6 +16,9 @@ export default function RootLayout({ children }) {
       <input type="text" name="name" /> <br /> <br />
       <input type="email" name="email" /> <br /> <br />
       <textarea name="message"></textarea>
+      <p>
+            <button type="submit">Send</button>
+          </p>
     </form>
     </body>
     </html>
