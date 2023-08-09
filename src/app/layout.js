@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 
       <div class="bg-white p-8 rounded-lg shadow-md w-96">
       <h2 className="text-2xl font-semibold mb-4">Contact us!</h2>
-      <form name="contact" >
+      <form name="contact" method="post" netlify >
           <input type="hidden" name="form-name" value="contact" />
           <div class="mb-4">
         <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
